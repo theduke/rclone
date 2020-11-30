@@ -79,6 +79,7 @@ func init() {
 			Name:     "key",
 			Help:     "Application Key",
 			Required: true,
+			IsPassword: true,
 		}, {
 			Name:     "endpoint",
 			Help:     "Endpoint for the service.\nLeave blank normally.",
